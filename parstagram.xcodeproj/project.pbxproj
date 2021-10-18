@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4701FB73271D361000824CBA /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4701FB72271D361000824CBA /* CommentCell.swift */; };
 		47CB13412714CDCD0040031E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CB13402714CDCD0040031E /* AppDelegate.swift */; };
 		47CB13432714CDCD0040031E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CB13422714CDCD0040031E /* SceneDelegate.swift */; };
 		47CB13482714CDCD0040031E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CB13462714CDCD0040031E /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		11C7E7295D972ADBF15BEB0A /* Pods-parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parstagram.debug.xcconfig"; path = "Target Support Files/Pods-parstagram/Pods-parstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		4701FB72271D361000824CBA /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		47CB133D2714CDCD0040031E /* parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CB13402714CDCD0040031E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47CB13422714CDCD0040031E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				47CB137227162F4C0040031E /* FeedViewController.swift */,
 				47CB137427166B700040031E /* CameraViewController.swift */,
 				47CB1376271761B60040031E /* PostCell.swift */,
+				4701FB72271D361000824CBA /* CommentCell.swift */,
 				47CB13492714CDCF0040031E /* Assets.xcassets */,
 				47CB134E2714CDCF0040031E /* Info.plist */,
 			);
@@ -421,6 +424,7 @@
 				47CB13412714CDCD0040031E /* AppDelegate.swift in Sources */,
 				47CB137327162F4C0040031E /* FeedViewController.swift in Sources */,
 				47CB13432714CDCD0040031E /* SceneDelegate.swift in Sources */,
+				4701FB73271D361000824CBA /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
