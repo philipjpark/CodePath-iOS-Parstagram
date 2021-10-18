@@ -8,6 +8,8 @@ target 'parstagram' do
   # Pods for parstagram
   pod 'Parse'
   pod 'AlamofireImage'
+  pod 'MessageInputBar'
+ end
 
   target 'parstagramTests' do
     inherit! :search_paths
@@ -18,4 +20,4 @@ target 'parstagram' do
     # Pods for testing
   end
 
-end
+
